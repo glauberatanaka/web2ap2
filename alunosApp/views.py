@@ -3,4 +3,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Hello World!")
+    test_dict = {'testTemplateTag':'Sou uma template tag!'}
+    return render(request, 'alunosApp/index.html', context=test_dict)
