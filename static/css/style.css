@@ -17,10 +17,14 @@ border: 1px solid black;
 
 #tabelaListar{
     width: 50%;
-    margin:auto;
-    
-    
+    margin:auto; 
 }
+
+.formulario {
+    width: 50%;
+    margin:auto; 
+}
+
 th,td{
     padding: 15px;
     text-align: left;
