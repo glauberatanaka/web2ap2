@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <title>Alunos</title>
 </head>
 <body>
+    <a href="{% url 'form_curso' %}" class="btn btn-primary btn-lg active">Novo Curso</a>
+    <a href="{% url 'form_aluno' %}" class="btn btn-primary btn-lg active">Novo Aluno</a>
+
     <h2>Lista de Alunos</h2>
     
     <div class="alunos">
