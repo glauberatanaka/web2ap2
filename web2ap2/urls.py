@@ -21,4 +21,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('alunos/', include('alunosApp.urls')),
     path('admin/', admin.site.urls),
+    path('adicionar/curso', views.form_curso, name='form_curso'),
+    path('adicionar/aluno', views.form_aluno, name='form_aluno')
+
 ]
